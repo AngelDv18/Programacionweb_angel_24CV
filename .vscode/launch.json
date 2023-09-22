@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "chrome",
+            "type": "msedge",
             "request": "launch",
             "name": "Open indexpag.html",
             "file": "c:\\Users\\angel\\OneDrive - Universidad Politécnica de Quintana Roo\\Documentos\\Miprimerapagwed24CV\\indexpag.html"
