@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<HTML lang="es">
+    <Head>
+        <meta charset = "utf-8">
+        <meta name="descripcion" content="Esta pagina web es de ejemplo">
+        <meta name="Keywords" contet="HTML,CSS,JAVASSCRIPT">
+        <link rel="icon" href="c:\Users\angel\OneDrive - Universidad Politécnica de Quintana Roo\Documentos\Miprimerapagwed24CV\logo1.webp" type="img/png" sizes="16x16">
+         <title>Mi Primer Paginan Web</title>
+    </Head>
+    <Body>
+        <h>Adios mi paito</h>
+        <h0>Adios mi paito</h0>
+        <h1>Hola Mi pana</h1>
+        <h2>Adios mi paito</h2>
+        <h3>Adios mi paito</h3>
+        <h4>Adios mi paito</h4>
+        <h5>Adios mi paito</h5>
+        <h6>Adios mi paito</h6>
+        <h7>Adios mi paito</h7>
+        <h8>Adios mi paito</h8>
+
+       <br>
+
+       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet dolore velit perferendis ea dolorem sed quidem laborum eos autem repudiandae accusamus magnam, dolor doloremque nostrum, ipsum omnis illum possimus blanditiis?</p>
+       <hr width="size" color="red">
+       <p>Lorem ipsum dolor sit, amet consectetur adipisicpeneing elit. Sed adipisci eveniet totam cupiditate iusto laborum! Accusamus facilis, officia quis in labore adipisci, voluptates, reiciendis asperiores minus perferendis molestias earum obcaecati.</p>
+       <hr size="5" color="green">
+       <p><strong>letras en negrita</strong></p>
+       <P><b>Letras NEGRITAS</b></P>
+       <P><i>Letra CURSIVA</i></P>
+       <P><del>Letras TACHADAS</del></P>
+       <p><em>El ENFASIS DEL COMIC</em></p>
+       <p><small>Letra pequeña</small></p>
+       <p><sup>Un Super INDICE</sup></p>
+       <p><sub>Un SUBINDICE</sub></p>
+       <p><mark>Letras SUBRAYADAS</mark></p>
+       <p><q>Una Cita Pequeña</q></p>
+       <p><cite>Un Titulo de Trabajo </cite></p>
+       <p><time>El Tiempo o HORA</time></p>
+       <p><address>La DIRECCION</address></p>
+       <p><blockquote>Letras Con un TAB</blockquote></p>
+
+
+       <h3> Listas ordenadas y desordenadas </h3>
+
+            <h4> Listas ordenadas </h4>
+         <ol type ="I">
+         <li> Elemento </li>
+         <li>
+            <ol type="A">
+                <li> Elemento 2</li>
+                <li> Elemento 2</li>
+                <li> Elemento 2</li>
+                <li>
+                <ol type ="i">
+                      <li> AaAAAAAAAAA </li>
+                    </ol>
+                </li>
+            </ol>
+        <li>
+        <li> Elemento</li>
+        <li> Elemento</li>
+        <li> Elemento</li>
+       </li>
+    </ol>
+    <h4> Listas desordenadas </h4>
+<ul>
+<li>Elemento</li>
+<li>Elemento</li>
+<li>
+    <ul>
+        <li>Elemento</li>
+        <li>Elemento</li>
+        <li>Elemento</li>
+    </ul>
+</li>
+<li>Elemento</li>
+<li>Elemento</li>
+</ul>
+
+<h4>Listas descriptivas</h4>
+
+<dl>
+<dt>Nombre:</dt>
+<dd>Angel</dd>
+<dt>Apellido:</dt>
+<dd>Garcia</dd>
+<dt>Cargo:</dt>
+<dd>Programador</dd>
+</dl>
+
+<h3>Imagenes</h3>
+
+<img src="Lol.jpg" alt="Imagen Computadora" width="500" height="350">
+<br>
+<img src="Among Us.gif" alt="GIF" width="450" height="300">
+<br>
+<img src="https://th.bing.com/th/id/OIP.JphYH3Ozq4i4XA2AgbytRgHaEK?pid=ImgDet&rs=1" alt="Imagen de Web" width="600" height="350">
+
+<br>
+
+<h3>
+<table border="1px">
+<thead>
+    <tr>
+        <tr>
+            <th colspan="8">
+                Horario de Clases
+            </th>
+        </tr>
+        <th>Asignatura</th>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miercoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+        <th>Sabado</th>
+        <th>Domingo</th>
+    </tr>
+    <tr>
+        <td>Programacion WEB</td>
+        <td>14:00 a 17:00</td>
+        <td>14:00 a 17:00</td>
+        <td>14:00 a 17:00</td>
+        <td>14:00 a 17:00</td>
+        <td>14:00 a 17:00</td>
+        <td rowspan="3"> Sin Clase</td>
+        <td rowspan="3"> Sin Clase</td>
+    </tr>
+
+    <tr>
+        <td>Bases de Datos</td>
+        <td>17:00 a 19:00</td>
+        <td>17:00 a 19:00</td>
+        <td>17:00 a 19:00</td>
+        <td>17:00 a 19:00</td>
+        <td>17:00 a 19:00</td>
+
+    </tr>
+    <tr>
+        <td>Diseño de Interfaces</td>
+        <td>18:00 a 20:00</td>
+        <td>18:00 a 20:00</td>
+        <td>18:00 a 20:00</td>
+        <td>18:00 a 20:00</td>
+        <td>18:00 a 20:00</td>
+
+    </tr>
+</head>
+</table>
+</h3>
+
+<h3> Formularios </h3>
+
+<form action="">
+    <fieldset>
+        <legend> Formulario de Datos </legend>
+
+        <label for="Nombre">Nombre: </label>
+        <input  type="text" id="Nombre" placeholder="Escribe tu Nombre" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="Email" placeholder="example@gmail.com">
+        
+        <label for="password">password:</label>
+        <input type="password" name="password" id="password" placeholder="Introduce tu contraseña">
+        
+        <label for="fecha">fecha:</label>
+        <input type="date" name="fecha" id="fecha" placeholder="Tu fecha">
+        
+        <label for="tiempo">Hora:</label>
+        <input type="time" id="tiempo" placeholder="Tu tiempo">
+        
+        <label for="number">Numero:</label>
+        <input type="number" min="0" max="10" id="number">
+
+<input type="submit" value="Enviar">
+
+<fieldset> 
+
+</fieldset>
+<legend>Datos adicionales</legend>
+
+<label for="file">Sube un Archivo:</label>
+<input type="file" id="file">
+
+<label for="color">Selecciona un color: </label>
+<input type="color" id="color">
+
+<input type="reset" value="restablecer">
+<input type="submit" value="enviar">
+
+
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Selectores</legend>
+        <label for="selectores"></label>
+        <select name="selector" id="selector">
+            <option value="">Selecciona una opcion</option>
+            <option value=""Selected>opcion 1</option>
+            <option value="">opcion 2</option> 
+            <option value="">opcion 3</option>
+        </select>
+        <input type="checkbox" id="Opcion 1" value="opcion 1">
+        <label for="opcion 1">Opcion 1</label>
+        <input type="checkbox" id="Opcion 2" value="opcion 2">
+        <label for="opcion 2">Opcion 2</label>
+        <input type="text">
+
+        <input name="opcion" type="radio" id="opcion" value="1">
+        <label for="Opcion 1">opcion 1</label>
+        <input name="opcion" type="radio" id="opcion" value="2">
+        <label for="opcion 2">opcion 2</label>
+        <input name="opcion 3" type="radio" id="opcion" value="3">
+        <label for="Opcion 3">opcion 3</label>
+
+    </fieldset>
+    
+
+<label for="Nombre">Nombre: </label>
+<input  type="text" id="Nombre" placeholder="Escribe tu Nombre">
+
+<label for="email">Email:</label>
+<input type="email" id="Email" placeholder="example@gmail.com">
+
+<label for="password">password:</label>
+<input type="password" name="password" id="password" aria-placeholder="Introduce tu contraseña">
+
+<label for="fecha">fecha:</label>
+<input type="date" name="fecha" id="fecha" placeholder="Tu fecha">
+
+<label for="tiempo">Hora:</label>
+<input type="time" id="tiempo" placeholder="Tu tiempo">
+
+<label for="number">Numero:</label>
+<input type="number" min="0" max="10" id="number">
+
+
+</form>
+
+
+
+    </Body>
+</HTML>
