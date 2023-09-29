@@ -21,7 +21,7 @@
         font-weight: 300;
         margin: 10px;
         line-height: 1.2;
-        color: black;
+        color: white;
     }
     
     h2 {
@@ -48,21 +48,95 @@
         max-width: 1200px;
         overflow: visible;
     }
-    .nav {
-        background-color: red;
+    .navbar {
+        background-color: rgb(206, 75, 75);
         height: 70px;
-        
+        padding: 0 30px;
     }
-    .nav h1 {
+    .navbar h1 {
         font-size: 30px;
         font-weight: 300;
         margin: 10px 0;
         line-height: 1.2;
     }
     
-    .nav flex {
+    .navbar .flex {
         display: flex;
         justify-content: space-between;
         align-items: center;
         height: 100%;
     }
+
+    .navbar ul{
+        display: flex;
+    }
+
+    .navbar a{
+        color: white;
+        padding: 9px;
+        margin: 0 10px;
+    }
+
+    .navbar a:hover{
+        color: #e8d6b5;
+        border-bottom: 3px solid #e8d6b5;
+    } 
+
+    .showcase{
+        background-color: orange;
+        height: 300px;
+    }
+
+    .showcase p{
+        margin-bottom: 30px;
+
+    }
+
+    .showcase img{
+        box-shadow: 7px 7px 7px rgb(0, 0, 0,0.2);
+
+    }
+
+    .showcase form{
+        padding-left: 7px;
+
+    }
+
+    .grid{
+        display: grid;
+        overflow: visible;
+        grid-template-columns: 70% 40%;
+    }
+
+    .grid-item-1 , .grid-item-2{
+        position: relative;
+        top: 50px;
+
+    }
+
+    .showcase input{
+        padding: 10px 70px 10px 0;
+        font-size: 14px;
+        border: none;
+        border-radius: 5px;
+        padding-left: 6px;
+
+    }
+
+    .btn{
+        border-radius:  6px;
+        padding: 12px 20px;
+        border: none;
+        background-color:  #f6a000;
+        color: white;
+        margin-left:  10px;
+        font-size:  16px;
+        cursor: pointer;
+        box-shadow: 0 10px 10px rgb(0, 0, 0, 0.2);
+    }
+
+    .little-info{
+        font-size: 15px;
+        font-family: "popping", sans-serif;
+    }
+    
