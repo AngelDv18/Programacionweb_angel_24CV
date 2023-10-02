@@ -2,11 +2,13 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+
      }
     
     body {
         font-family: "lato", sans-serif;
         color: white;
+
     }
     
     a {
@@ -15,13 +17,16 @@
         margin: 10px 0;
         line-height: 1.2; */
         text-decoration: none;
+
     }
+
     h1 {
         font-size: 30px;
         font-weight: 300;
         margin: 10px;
         line-height: 1.2;
         color: white;
+
     }
     
     h2 {
@@ -29,35 +34,44 @@
         font-weight: 300;
         margin: 10px 0;
         line-height: 1.2;
+
     }
     
     p {
         font-size: 30px;
+
     }
     
     img {
         width: 100%;
+
     }
     
     li {
         list-style-type: none;
+
     }
     
     .container {
         margin: 0 auto;
         max-width: 1200px;
         overflow: visible;
+
     }
+
     .navbar {
         background-color: rgb(206, 75, 75);
         height: 70px;
         padding: 0 30px;
+
     }
+    
     .navbar h1 {
         font-size: 30px;
         font-weight: 300;
         margin: 10px 0;
         line-height: 1.2;
+
     }
     
     .navbar .flex {
@@ -65,21 +79,25 @@
         justify-content: space-between;
         align-items: center;
         height: 100%;
+
     }
 
     .navbar ul{
         display: flex;
+
     }
 
     .navbar a{
         color: white;
         padding: 9px;
         margin: 0 10px;
+
     }
 
     .navbar a:hover{
         color: #e8d6b5;
         border-bottom: 3px solid #e8d6b5;
+
     } 
 
     .showcase{
@@ -140,3 +158,55 @@
         font-family: "popping", sans-serif;
     }
     
+    .lower-container{
+        color: black;
+        margin: 120px auto;
+        padding: 0;
+        max-width: 1400px;
+        max-width: center;
+    }
+
+    .tittle{
+color: black;
+font-size: 20px;
+text-align: left;
+padding-left: 10px;
+padding-top: 10px;
+    }
+
+    .text{
+        color: black;
+        font-size: 20px;
+        width: 100%;
+        padding: 10px;
+        margin: 0 20px;
+        text-align: justify;
+    }
+
+    .flex{
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .stats{
+        padding: 45px 50px;
+        text-align: center;
+    }
+
+    .stat{
+        margin: 0 30px;
+        text-align: center;
+        width: 800px;
+    }
+
+    .stat .fa{
+        color: orange;
+
+    }
+
+    .tittle-container{
+        color: black;
+        text-align: center;
+    }
+
