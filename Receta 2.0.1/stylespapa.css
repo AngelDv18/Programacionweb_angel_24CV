@@ -19,8 +19,8 @@
 }
 
 .box{
-    background-color: rgba(212, 58, 58, 0.768);
-    color: #333;
+    background-color: gold;
+    color: black;
     border-radius: 5px;
     padding: 20px;
 }
@@ -31,15 +31,19 @@
 }
 .article{
     grid-column: 1/5;
+    background-color: transparent;
 
 }
 .aside{
     grid-column: 5/6;
     grid-row: 2/5;
-
+    background-color: transparent;
+    image-rendering: auto;
 }
+
+
 
 .footer{
     grid-column: 1/6;
-
+background-color: gold;
 }
